@@ -1,0 +1,130 @@
+
+:root {
+    --main-color: #035EED;
+    --body-coloe: #E4E9EF;
+    --yellow: #F5A103;
+    --blue: #00D0D4;
+    --green: #02AD69;
+    --pink: #5F199D;
+    --red: #E41600;
+}
+
+
+body {
+    background-color: var(--body-coloe);
+    box-sizing:border-box;
+}
+
+.ct {color: var(--main-color);}
+
+/* navbar  */
+.navbar input[type="search"] {
+    padding: 10px;
+    padding-right: 40px;
+    width: 300px;
+    
+}
+.navbar {box-shadow: 0  0 5px rgba(0, 0, 0, 0.2);}
+
+.navbar .search-icon {
+    margin-left: -55px;
+    padding: 15px;
+}
+
+.side-nav {
+    width: 250px;
+    position: fixed;
+    height: calc(100% - 66px);
+    overflow: auto;
+    box-shadow: 0  0 2px rgba(0, 0, 0, 0.2);
+}
+
+.side-nav i {color: #7f7f7f;}
+
+.side-nav a {
+    text-decoration: none;
+    color: black;
+}
+.side-nav .item:hover i,
+.side-nav .item:hover span
+{
+    color: var(--main-color);
+}
+
+/* navbar  */
+
+.content {width: calc(100% - 250px);}
+
+/* landing  */
+.landing {
+    background-image: linear-gradient(to right, #035EED ,#4C1AD1);
+    padding-bottom: 170px;
+}
+/* landing  */
+
+/* cards  */
+.cards {margin-top: -120px;}
+
+.cards .intro h2 {color: var(--main-color);}
+
+.cards .activities .act i {margin-top: 4px;}
+
+.cards .activities .act span {min-width: 60px;}
+
+.cards .activities .act span, i, p {font-size: 13px;}
+
+.cards .activities  .orders i {color: var(--green);}
+.cards .activities  .notes i {color: var(--pink);}
+.cards .activities  .reports i {color: var(--main-color);}
+.cards .activities  .server i {color: var(--yellow);}
+
+.cards .tracker .progress-bar {
+    height: 15px;
+}
+
+.cards .tracker .progress-bar .Server {background-color: var(--red);}
+.cards .tracker .progress-bar .Sales {background-color: var(--yellow);}
+.cards .tracker .progress-bar .Customer {background-color: var(--main-color);}
+.cards .tracker .progress-bar .Payout {background-color: var(--blue);}
+.cards .tracker .progress-bar .Account {background-color: var(--green);}
+
+/* cards  */
+
+/* cards2 */
+.cards2 .Earnings-m {background-color: var(--main-color);}
+.cards2 .Earnings-a {background-color: var(--yellow);}
+.cards2 .Pending {background-color: var(--red);}
+.cards2 .Task {background-color: var(--green);}
+
+.cards2 .footer {background-color: rgba(0, 0, 0, 0.1);}
+/* cards2 */
+
+/* Charts  */
+.charts table .chart-bar .Jan {height: 8%; background-color: var(--main-color);}
+.charts table .chart-bar .Feb {height: 16%; background-color: var(--main-color);}
+.charts table .chart-bar .Mar {height: 20%; background-color: var(--main-color);}
+.charts table .chart-bar .Apr {height: 25%; background-color: var(--main-color);}
+.charts table .chart-bar .May {height: 30%; background-color: var(--main-color);}
+.charts table .chart-bar .Jun {height: 36%; background-color: var(--main-color);}
+.charts table .chart-bar .Jul {height: 40%; background-color: var(--main-color);}
+.charts table .chart-bar .Aug {height: 45%; background-color: var(--main-color);}
+.charts table .chart-bar .Sep {height: 60%; background-color: var(--main-color);}
+.charts table .chart-bar .Oct {height: 80%; background-color: var(--main-color);}
+.charts table .chart-bar .Nov {height: 91%; background-color: var(--main-color);}
+.charts table .chart-bar .Des {height: 100%; background-color: var(--main-color);}
+
+
+.charts table .chart-bar2 .Jan {clip-path: polygon(0 75%, 100% 50%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Feb {clip-path: polygon(0 50%, 100% 80%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Mar {clip-path: polygon(0 80%, 100% 50%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Apr {clip-path: polygon(0 50%, 100% 35%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .May {clip-path: polygon(0 35%, 100% 50%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Jun {clip-path: polygon(0 50%, 100% 45%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Jul {clip-path: polygon(0 45%, 100% 10%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Aug {clip-path: polygon(0 10%, 100% 35%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Sep {clip-path: polygon(0 35%, 100% 70%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Oct {clip-path: polygon(0 70%, 100% 40%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Nov {clip-path: polygon(0 40%, 100% 80%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+.charts table .chart-bar2 .Des {clip-path: polygon(0 80%, 100% 110%, 100% 100%, 0 100% ); background-color: var(--main-color);}
+
+/* Charts  */

@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ٍSB Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="images/icons8-signal-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
+    <!-- main stylesheet  -->
+    <link rel="stylesheet" href="css/main-stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- navbar  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white  sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-5 fw-bold" href="#">SB Admin Pro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex ms-3 ">
+            <input class="form-control border-0 bg-light" type="search" placeholder="Search" aria-label="Search">
+            <span><i class="fa-solid fa-magnifying-glass search-icon text-black-50"></i></span>
+          </form>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5 align-items-center">
+            
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Documentation
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-bell text-black-50"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-regular fa-envelope text-black-50"></i></a>
+          </li>
+          <li>
+            <a href="">
+                <img src="images/profile-icon.jpg" class="img-fluid rounded-circle" width="50px" height="50px" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<!-- navbar  -->
+
+
+<!-- side nav  -->
+<div class="sidenav">
+    <div class="side-nav bg-white d-flex flex-column align-content-between">
+        <div class="links">
+                <div class="categoy p-4">
+                    <h6 class="text-black-50 mb-3">Core</h6>
+                    <a href="">
+                        <div class="item mb-3">
+                            <i class="fa-solid fa-wave-square"></i>
+                            <span class="ms-2">Dashboard</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="categoy p-4">
+                    <h6 class="text-black-50 mb-3">App Viwes</h6>
+                    <div class="item mb-3">
+                        <a href="">
+                            <i class="fa-regular fa-newspaper"></i>
+                            <span class="ms-2">Pages</span>
+                        </a>
+                    </div>
+                    <div class="item mb-3">
+                        <a href="">
+                            <i class="fa-solid fa-repeat"></i>
+                            <span class="ms-2">Flows</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="categoy p-4">
+                    <h6 class="text-black-50 mb-3">UI Toolkit</h6>
+                    <a href="">
+                        <div class="item mb-3">
+                            <i class="fa-solid fa-pen"></i>
+                            <span class="ms-2">Layout</span>
+                        </div>
+                        <div class="item mb-3">
+                            <i class="fa-brands fa-codepen"></i>
+                            <span class="ms-2">Components</span>
+                        </div>
+                        <div class="item mb-3">
+                            <i class="fa-solid fa-wrench"></i>
+                            <span class="ms-2">Utilities</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="categoy p-4">
+                    <h6 class="text-black-50 mb-3">Plugins</h6>
+                    <a href="">
+                        <div class="item mb-3">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="ms-2">Charts</span>
+                        </div>
+                        <div class="item mb-3">
+                            <i class="fa-solid fa-filter"></i>
+                            <span class="ms-2">Tables</span>
+                        </div>
+                    </a>
+                </div>
+        </div>
+        <div class="logas bg-light py-4 ps-3 mt-auto ">
+            <span class="text-black-50">logged in as:</span>
+            <h6>Mostafa Labib</h6>
+        </div>    
+    </div>
+</div>
+    <!-- side nav  -->
+    
+<div class="content ms-auto">
+    <!-- landing -->
+    <div class="landing px-5 pt-5 text-white">
+        <h3>
+            <i class="fa-solid fa-wave-square"></i>
+            <span class="ms-2">Dashboard</span>
+        </h3>
+        <p class="text-white-50">Example dashboard overview and content summary</p>
+    </div>
+    <!-- landing -->
+    <!-- cards -->
+    <div class="cards px-5 pb-5">
+        <div class="row  gap-4">
+            <div class="col  bg-white px-0 py-5 rounded-3 text-center">
+                    <div class="intro w-75 mx-auto">
+                        <h2>welcome to SB Admin Pro!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eum architecto ut voluptatem expedita quis iusto laudantium perspiciatis! Atque, Nobis itaque porro ea in nostrum totam facere, at temporibus.</p>
+                        <img src="images/3081783.jpg" class="img-fluid" alt="">
+                    </div>
+            </div>
+            <div class="col  rounded-3 bg-white px-0  ">
+                    <div class="card-title bg-light rounded-3 border-bottom">
+                        <h5 class=" ct p-3  ">Recent Activity</h5>
+                    </div>
+                    <div class="activities pb-5  mt-4 px-3">
+                        <div class="act orders d-flex px-3 mb-2">
+                            <span class="text-black-50 text-center pe-2">27 min</span>
+                            <i class="fa-solid fa-circle px-1"></i>
+                            <p class="ps-3">Lorem, ipsum dolor sit amet consectetur </p>
+                        </div>
+                        <div class="act reports d-flex px-3 mb-2">
+                            <span class="text-black-50 text-center pe-2">5 hrs</span>
+                            <i class="fa-solid fa-circle px-1"></i>
+                            <p class="ps-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque sequi soluta! </p>
+                        </div>
+                        <div class="act notes d-flex px-3 mb-2">
+                            <span class="text-black-50 text-center pe-2">2 days</span>
+                            <i class="fa-solid fa-circle px-1"></i>
+                            <p class="ps-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque sequi soluta! </p>
+                        </div>
+                        <div class="act server d-flex px-3 mb-2">
+                            <span class="text-black-50 text-center pe-2">2 days</span>
+                            <i class="fa-solid fa-circle px-1"></i>
+                            <p class="ps-3">Lorem ipsum dolor sit amet ! </p>
+                        </div>
+                        <div class="act orders d-flex px-3 mb-2">
+                            <span class="text-black-50 text-center pe-2">27 min</span>
+                            <i class="fa-solid fa-circle px-1"></i>
+                            <p class="ps-3">Lorem, ipsum dolor sit amet consectetur </p>
+                        </div>
+                        <div class="act notes d-flex px-3 mb-2">
+                            <span class="text-black-50 text-center pe-2">2 days</span>
+                            <i class="fa-solid fa-circle px-1"></i>
+                            <p class="ps-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque sequi soluta! </p>
+                        </div>
+                        <div class="act orders d-flex px-3 mb-2">
+                            <span class="text-black-50 text-center pe-2">27 min</span>
+                            <i class="fa-solid fa-circle px-1"></i>
+                            <p class="ps-3">Lorem, ipsum dolor sit amet consectetur </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col  rounded-3 bg-white d-flex flex-column px-0 justify-content-between">
+                    <div class="card-title bg-light rounded-3 border-bottom ">
+                        <h5 class=" ct p-3">Progress Tracker</h5>
+                    </div> 
+                    <div class="tracker my-1 px-3">
+                        <div class="progress-info mb-3  ">
+                            <div class="progress-titel d-flex justify-content-between">
+                                <p>Server Migration</p>
+                                <span>20%</span>
+                            </div>
+                            <div class="progress-bar rounded-3 bg-light"  style="width: 100%" >
+                                <div class="progress-bar Server"   style="width: 20%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-info mb-3  ">
+                            <div class="progress-titel d-flex justify-content-between">
+                                <p>Sales Tracking</p>
+                                <span>40%</span>
+                            </div>
+                            <div class="progress-bar rounded-3 bg-light"  style="width: 100%" >
+                                <div class="progress-bar Sales"  style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-info mb-3  ">
+                            <div class="progress-titel d-flex justify-content-between">
+                                <p>Customer Database</p>
+                                <span>60%</span>
+                            </div>
+                            <div class="progress-bar rounded-3 bg-light"  style="width: 100%" >
+                                <div class="progress-bar Customer"  style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-info mb-3  ">
+                            <div class="progress-titel d-flex justify-content-between">
+                                <p>Payout Details</p>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar rounded-3 bg-light"  style="width: 100%" >
+                                <div class="progress-bar Payout"  style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-info mb-3  ">
+                            <div class="progress-titel d-flex justify-content-between">
+                                <p>Account Setup</p>
+                                <span>Complete!</span>
+                            </div>
+                            <div class="progress-bar rounded-3 bg-light"  style="width: 100%" >
+                                <div class="progress-bar Account"  style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer p-3 rounded-3 border-top d-flex justify-content-between align-items-center">
+                        <h6 class="text-black-50">Visit Task Center</h6>
+                        <i class="fa-solid fa-arrow-right fa-lg text-black-50"></i>
+                    </div> 
+            </div>
+        </div>
+    </div>
+    <!-- cards -->
+    <!-- cards2  -->
+    <div class="cards2 px-5 pb-5">
+            <div class="row gap-4">
+                <div class="col Earnings-m rounded-3 d-flex flex-column justify-content-between p-0">
+                    <div class="head d-flex justify-content-between align-items-center p-3 pb-4">
+                        <div class="title">
+                            <span class="text-white-50">Earnings (Monthly)</span>
+                            <span class="text-white d-block fs-4">$40,000</span>
+                        </div>
+                        <i class="fa-regular fa-clipboard text-white-50 fa-2xl"></i>
+                    </div>
+                    <div class="footer rounded-bottom  d-flex justify-content-between align-items-center pt-2 p-3">
+                        <h6 class="text-white pt-3">View Reports</h6>
+                        <i class="fa-solid fa-angle-right fa-lg text-white"></i>
+                    </div>
+                </div>
+                <div class="col Earnings-a rounded-3 d-flex flex-column justify-content-between p-0">
+                    <div class="head d-flex justify-content-between align-items-center p-3 pb-4">
+                        <div class="title">
+                            <span class="text-white-50">Earnings (Annual)</span>
+                            <span class="text-white d-block fs-4">$215,000</span>
+                        </div>
+                        <i class="fa-solid fa-dollar-sign fa-2xl text-white-50"></i>
+                    </div>
+                    <div class="footer rounded-bottom  d-flex justify-content-between align-items-center pt-2 p-3">
+                        <h6 class="text-white pt-3">View Reports</h6>
+                        <i class="fa-solid fa-angle-right fa-lg text-white"></i>
+                    </div>
+                </div>
+                <div class="col Task rounded-3 d-flex flex-column justify-content-between p-0">
+                    <div class="head d-flex justify-content-between align-items-center p-3 pb-4">
+                        <div class="title">
+                            <span class="text-white-50">Task Completion</span>
+                            <span class="text-white d-block fs-4">24</span>
+                        </div>
+                        <i class="fa-regular fa-square-check fa-2xl text-white-50"></i>
+                    </div>
+                    <div class="footer rounded-bottom  d-flex justify-content-between align-items-center pt-2 p-3">
+                        <h6 class="text-white pt-3">View Tasks</h6>
+                        <i class="fa-solid fa-angle-right fa-lg text-white"></i>
+                    </div>
+                </div>
+                <div class="col Pending  rounded-3 d-flex flex-column justify-content-between p-0">
+                    <div class="head d-flex justify-content-between align-items-center p-3 pb-4">
+                        <div class="title">
+                            <span class="text-white-50">Pending Requests</span>
+                            <span class="text-white d-block fs-4">17</span>
+                        </div>
+                        <i class="fa-regular fa-comment fa-2xl text-white-50"></i>
+                    </div>
+                    <div class="footer rounded-bottom  d-flex justify-content-between align-items-center pt-2 p-3">
+                        <h6 class="text-white pt-3">View Requests</h6>
+                        <i class="fa-solid fa-angle-right fa-lg text-white"></i>
+                    </div>
+                </div>       
+            </div>
+    </div>
+    <!-- cards2  -->
+    <!-- Charts  -->
+    <div class="charts px-5">
+            <div class="row gap-4">
+                <div class="col bg-white p-0 rounded-3 ">
+                    <div class="card-title bg-light rounded-3 border-bottom">
+                        <h5 class=" ct p-3  ">Bar Charts Example</h5>
+                    </div>
+                    <div class="p-5">
+                        <table class="table table-borderless" >
+                            <tr class="chart-bar">
+                                <th scope="row" class="pb-4  pt-0">$15,000</th>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Jan"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Feb"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Mar"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Apr"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 May"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Jun"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Jul"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Aug"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Sep"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Oct"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Nov"></div>
+                                </td>
+                                <td rowspan="4" class="position-relative">
+                                <div class="position-absolute bottom-0 w-75 Des"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="pb-4 pt-0">$10,000</th>
+    
+                            </tr>
+                            <tr>
+                                <th scope="row" class="pb-4 pt-0">$5,000</th>
+                            </tr>
+                            <tr>
+                                <th class=" py-0">$0</th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="text-center">Jan</td>
+                                <td class="text-center">Feb</td>
+                                <td class="text-center">Mar</td>
+                                <td class="text-center">Apr</td>
+                                <td class="text-center">May</td>
+                                <td class="text-center">Jun</td>
+                                <td class="text-center">Jul</td>
+                                <td class="text-center">Aug</td>
+                                <td class="text-center">Sep</td>
+                                <td class="text-center">Oct</td>
+                                <td class="text-center">Nov</td>
+                                <td class="text-center">Des</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col bg-white p-0 rounded-3 ">
+                    <div class="card-title bg-light rounded-3 border-bottom">
+                        <h5 class=" ct p-3  ">Bar Charts Example</h5>
+                    </div>
+                    <div class="p-5">
+                        <table class="table table-borderless" >
+
+                            <tr class="chart-bar2">
+                                <th scope="row" class="pb-4  pt-0">$250,000</th>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100   h-100  Jan"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100   h-100  Feb"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Mar"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Apr"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  May"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Jun"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Jul"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Aug"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Sep"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Oct"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Nov"></div>
+                                </td>
+                                <td rowspan="5" class="position-relative">
+                                <div class="position-absolute bottom-0 w-100  h-100  Des"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="pb-4  pt-0">$150,000</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="pb-4 pt-0">$80,000</th>
+    
+                            </tr>
+                            <tr>
+                                <th scope="row" class="pb-4 pt-0">$30,000</th>
+                            </tr>
+                            <tr>
+                                <th class=" py-0">$0</th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="text-center">Jan</td>
+                                <td class="text-center">Feb</td>
+                                <td class="text-center">Mar</td>
+                                <td class="text-center">Apr</td>
+                                <td class="text-center">May</td>
+                                <td class="text-center">Jun</td>
+                                <td class="text-center">Jul</td>
+                                <td class="text-center">Aug</td>
+                                <td class="text-center">Sep</td>
+                                <td class="text-center">Oct</td>
+                                <td class="text-center">Nov</td>
+                                <td class="text-center">Des</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Charts  -->
+    <!-- datatable  -->
+    <div class="datatable p-5">
+            <div class="row bg-white">
+                <div class="card-title bg-light rounded-3 border-bottom">
+                    <h5 class=" ct p-3  ">DataTable Example</h5>
+                </div>
+                <div class="searsh p-3">
+                    <input type="search" name="" class="d-block p-3 w-25 border-0 bg-light rounded-3" placeholder="Full Text Search.." id="">
+                </div>
+                <div class="table">
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Country</th>
+                            <th scope="col">Area</th>
+                            <th scope="col">Population</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td><span class="fi fi-ru pe-1"></span> Russia</td>
+                            <td>17,153,120</td>
+                            <td>125,153,468</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td> <span class="fi fi-fr pe-1"></span> France</td>
+                            <td>654,512</td>
+                            <td>64,515,297</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td ><span class="fi fi-de pe-1"></span> Germany</td>
+                            <td >351,485</td>
+                            <td>82,851,152</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td ><span class="fi fi-pt pe-1"></span> Portugal</td>
+                            <td >92,156</td>
+                            <td>10,549,485</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="footer py-3 d-flex justify-content-between">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-light text-black-50 border-1 rounded-3 border-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            4 items per page
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">10</a></li>
+                            <li><a class="dropdown-item" href="#">25</a></li>
+                            <li><a class="dropdown-item" href="#">50</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- datatable  -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/brands.min.js"></script>
+</body>
+</html>
